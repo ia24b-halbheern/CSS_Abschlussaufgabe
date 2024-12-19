@@ -1,0 +1,107 @@
+.headers {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 180px;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.HeaderLogo {
+    padding-left: 125px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.title1 {
+    display: flex;
+    background-color: #1F2937;
+    height: 250px;
+    text-align: left;
+    padding: 125px;
+    font-size: 30px;
+}
+
+.title1left {
+    flex: 1;
+    color: white;
+    font-size: 18px;
+}
+
+
+.SignUpButton {
+    width: 100px;
+    height: 35px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.Stu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.Stu img {
+    height: 125%;
+    width: auto;
+
+}
+
+.middlePart {
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+}
+
+.infos {
+    font-size: 22px;
+}
+
+.ThirdPart {
+    height: 400px;
+    text-align: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    align-content: center;
+}
+
+.Zitat {
+    font-size: 36px;
+
+}
+
+.Footer {
+    height: 100px;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
+
+.TextFooter {
+    align-content: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+

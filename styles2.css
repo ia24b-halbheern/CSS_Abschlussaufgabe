@@ -1,0 +1,33 @@
+
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.container1 {
+background-color: beige; 
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: burlywood;
+    padding: 40px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}

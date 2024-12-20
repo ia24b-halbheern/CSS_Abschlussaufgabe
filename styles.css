@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .headers {
     display: flex;
     background-color: #1F2937;
@@ -10,8 +14,9 @@
 
 .HeaderLogo {
     padding-left: 125px;
-    font-weight: bold;
     padding-top: 20px;
+    height: 150px;
+    width: auto;
 }
 
 .headerlinks {
@@ -84,8 +89,52 @@
 
 .Zitat {
     font-size: 36px;
+}
+
+.Autor {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.FourthPart {
+    height: 400px;
+    padding: 25px 1000px;
+    align-content: center;
 
 }
+
+.flexContainer {
+    display: flex;
+    background-color: #3882F6;
+    padding: 35px 100px;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first {
+    justify-content: space-between;
+
+}
+
+.ButtonForth {
+    height: 35px;
+    width: 100px;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+
+}
+
 
 .Footer {
     height: 100px;
@@ -100,8 +149,13 @@
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
